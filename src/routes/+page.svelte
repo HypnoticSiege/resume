@@ -83,7 +83,15 @@
 			'Docker',
 			'SQL'
 		],
-		professional: ['Leadership', 'Communication', 'Project Management', 'Problem Solving']
+		professional: [
+			'Customer Service',
+			'Problem Solving',
+			'Communication',
+			'Teamwork',
+			'Time Management',
+			'Flexibility',
+			'Work Ethic'
+		]
 	};
 
 	let certifications = [
@@ -183,6 +191,7 @@
 			<div class="space-y-8 print:space-y-2">
 				<!-- Skills -->
 				<h2 class="section-title mb-2 text-xl font-bold">Skills</h2>
+				<div class="print:mb-4"></div>
 				<section>
 					<h3 class="text-md mb-2 font-semibold">Technical</h3>
 					<div class="mb-3 flex flex-wrap gap-2">
