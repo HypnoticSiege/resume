@@ -2,7 +2,7 @@
 	let personalInfo = {
 		name: 'Luis Quezada',
 		title: 'IT Student & Developer',
-		email: 'luis@example.com',
+		email: 'luis@quezada.nl',
 		phone: '(929) 595 6327',
 		location: 'Staten Island, NY',
 		linkedin: 'linkedin.com/in/quezada-nl',
