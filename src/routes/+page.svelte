@@ -60,24 +60,24 @@
 
 	let skills = {
 		technical: [
-			'HTML/CSS',
-			'TypeScript',
-			'Svelte',
-			'TailwindCSS',
-			'Node.js',
-			'Git',
-			'Linux',
-			'Docker',
-			'SQL'
+			'Windows & MacOS',
+			'Linux CLI',
+			'Networking (TCP/IP, DHCP, DNS)',
+			'Hardware & Software',
+			'Software Installation',
+			'Scripting & Automation (TypeScript, Bash, Python)',
+			'Printer & Peripheral Setup',
+			'Google Workspace Administration'
 		],
 		professional: [
-			'Customer Service',
+			'Customer Support',
 			'Problem Solving',
-			'Communication',
-			'Teamwork',
+			'Clear Communicator',
+			'Teamworker',
 			'Time Management',
-			'Flexibility',
-			'Work Ethic'
+			'Adaptability',
+			'Strong Work Ethic',
+			'Reliable'
 		]
 	};
 
@@ -91,16 +91,9 @@
 
 	let projects = [
 		{
-			name: 'iCommunity – Custom Community Platform',
-			period: 'Jan 2025 – Present',
+			name: 'iCommunity - Custom Community Platform',
 			description:
 				'Developed a customizable web platform for gaming communities with user roles, forums, and real-time chat features.'
-		},
-		{
-			name: 'Restaurant/Food Truck Template',
-			period: 'Sep 2025 – Nov 2025',
-			description:
-				'Created a ready-to-use template for small food businesses to showcase menus, locations, and online ordering links.'
 		}
 	];
 </script>
@@ -203,9 +196,6 @@
 							<div class="mb-4 print:mb-2">
 								<div class="flex flex-col md:flex-row md:items-baseline md:justify-between">
 									<h3 class="text-md font-semibold print:text-sm">{project.name}</h3>
-									<span class="mt-1 text-sm text-gray-600 md:mt-0 print:text-black"
-										>{project.period}</span
-									>
 								</div>
 
 								{#if project.description}
