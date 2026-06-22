@@ -1,16 +1,14 @@
 <script>
 	let personalInfo = {
 		name: 'Luis Quezada',
-		title: 'IT Student & Developer',
+		title: 'Customer Service & Operations Associate',
 		email: 'luis@quezada.nl',
-		phone: '(929) 595 6327',
+		phone: '(929) 595-6327',
 		location: 'Staten Island, NY',
-		linkedin: 'https://linkedin.com/in/quezada-nl',
-		github: 'https://github.com/hypnoticsiege',
-		website: 'https://quezada.nl'
+		linkedin: 'https://linkedin.com/in/quezada-nl'
 	};
 
-	let summary = `Self-taught developer and IT student with hands-on experience in customer-facing technical support, networking fundamentals, and full-stack web development. Comfortable working across different environments, with a track record of solving real problems for real people. From troubleshooting gym equipment connectivity, to building production-ready web platforms.`;
+	let summary = `Reliable and adaptable professional with experience in customer service, sales, and day-to-day operations in fast-paced environments. Recognized for strong communication skills, leadership, and the ability to quickly solve problems independently. Comfortable working with people, managing responsibilities, and using technology to improve efficiency and organization.`;
 
 	let experience = [
 		{
@@ -19,10 +17,11 @@
 			location: 'Staten Island, NY',
 			period: '2025 - Present',
 			bullets: [
-				'Opened the facility solo during early-morning shifts, building a loyal regular crowd that left positive online reviews by name.',
-				'Ranked #1 in membership sales multiple months, earning performance bonuses for highest Black Card conversion rate in the location.',
-				'Maintained accurate digital and physical records across membership accounts, flagging data inconsistencies and resolving them.',
-				'Provided technical support for connected gym equipment, troubleshooting network and hardware issues to minimize downtime.'
+				'Opened the facility independently during early-morning shifts while maintaining a welcoming and organized environment.',
+				'Built strong relationships with regular members, contributing to positive customer experiences and online reviews.',
+				'Consistently ranked among top performers in membership and Black Card sales.',
+				'Managed membership accounts, updated records, and resolved customer concerns professionally.',
+				'Assisted with troubleshooting equipment and operational issues to minimize disruptions.'
 			]
 		},
 		{
@@ -31,9 +30,10 @@
 			location: 'Staten Island, NY',
 			period: '2024 - 2025',
 			bullets: [
-				'Managed backroom operations including receiving, sorting, and organizing incoming inventory to keep the sales floor stocked efficiently.',
-				'Independently designed and built end-cap and table displays that improved product visibility.',
-				'Cross-trained on the register and stepped in during high-traffic periods, demonstrating flexibility.'
+				'Assisted customers with purchases, product questions, and locating merchandise in a busy retail environment.',
+				'Organized incoming inventory and maintained backroom operations to support efficient workflow.',
+				'Created and maintained product displays to improve store presentation and visibility.',
+				'Cross-trained on cashier responsibilities and supported multiple departments during high-traffic periods.'
 			]
 		}
 	];
@@ -44,7 +44,7 @@
 			institution: 'College of Staten Island',
 			location: 'Staten Island, NY',
 			period: '2025 - Present',
-			details: 'Programming · Networking · Database Management'
+			details: 'Coursework includes networking, databases, and computer systems'
 		},
 		{
 			degree: 'High School Diploma',
@@ -56,37 +56,34 @@
 	];
 
 	let skills = {
-		technical: [
-			'Windows & macOS',
-			'Linux CLI',
-			'FTP & RDP',
-			'TCP/IP · DHCP · DNS',
-			'Hardware Troubleshooting',
-			'TypeScript',
-			'Bash',
-			'Python',
-			'Google Workspace',
-			'Printer & Peripheral Setup'
-		],
 		professional: [
-			'Customer Support',
-			'Problem Solving',
-			'Clear Communicator',
-			'Team Player',
+			'Customer Service',
+			'Sales/Upselling',
+			'Communication',
+			'Collaboration',
 			'Time Management',
-			'Adaptability',
-			'Documentation'
+			'Problem Solving',
+			'Organization',
+			'Adaptability'
+		],
+		technical: [
+			'Microsoft Office',
+			'Google Workspace',
+			'Windows & macOS',
+			'Basic Technical Troubleshooting',
+			'Printer & Peripheral Setup',
+			'Web & Computer Knowledge'
 		]
 	};
 
 	let certifications = [
 		{
 			name: 'Eagle Scout',
-			issuer: 'Scouting BSA - Troop 37',
+			issuer: 'Scouting America - Troop 37',
 			date: '2025'
 		},
 		{
-			name: 'Exceptional Leadership',
+			name: 'Exceptional Leadership Award',
 			issuer: 'Suit Up - Battle of the Boroughs',
 			date: '2024'
 		}
@@ -94,14 +91,9 @@
 
 	let projects = [
 		{
-			name: 'iCommunity - Custom Community Platform',
+			name: 'Freelance Web & Tech Projects',
 			description:
-				'Developed a customizable web platform for gaming communities featuring user role management, discussion forums, and real-time chat. Built under the Intellisoft Reborn brand using modern web technologies.'
-		},
-		{
-			name: 'Intellisoft Labs - Web Design Business',
-			description:
-				'Founded and operate a freelance web design studio building websites and tools for local businesses and organizations. SvelteKit, Tailwind CSS, and custom CMS integrations.'
+				'Built websites and assisted local organizations and communities with online tools, technology setup, and general technical support.'
 		}
 	];
 </script>
