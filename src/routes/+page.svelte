@@ -44,7 +44,7 @@
 			institution: 'College of Staten Island',
 			location: 'Staten Island, NY',
 			period: '2025 - Present',
-			details: 'Coursework includes networking, databases, and computer systems'
+			details: 'Coursework includes networking, databases, and computer systems.'
 		},
 		{
 			degree: 'High School Diploma',
